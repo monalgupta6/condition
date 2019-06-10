@@ -1,7 +1,7 @@
 <?php
 	$a=4;
 	$b=5;
-	$c=6;
+	$c=3;
 	if(a>b&&a>c){
 		echo "a is greater then b and c";
 	}elseif(b>c&&b>a){
