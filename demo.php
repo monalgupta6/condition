@@ -1,9 +1,12 @@
 <?php
 	$a=4;
 	$b=5;
-	if(a>b){
-		echo "a is greater then b";
+	$c=6;
+	if($a>$b&&$a>$c){
+		echo "a is greater then b and c";
+	}elseif($b>$c&&$b>$a){
+		echo "b is greater than a and c";
 	}else{
-		echo "b is greater than a";
+		echo "c is greater;
 	}
 ?>
